@@ -3,6 +3,7 @@
   padding: 0;
   top: 0;
   left: 0;
+  transition: 1s;
 }
 .title-blue {
   color: #0f084a;
@@ -93,6 +94,9 @@
   }
   .foto-about {
     justify-content: center;
+  }
+  .d-lg-flex {
+    align-items: center;
   }
 }
 @media screen and (max-width: 576px) {
